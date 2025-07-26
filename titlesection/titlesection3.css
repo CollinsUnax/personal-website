@@ -12,7 +12,8 @@ button:hover {
 #title {
     text-align: center;
     padding-top: 200px;
-    
+    background-image: url('../images/aleks-dahlberg-pVATCBKLH8w-unsplash.jpg');
+    background-position: center top;    
 }
 
 
