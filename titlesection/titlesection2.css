@@ -1,5 +1,6 @@
 :root {
     --titleOfPrimaryColor: black;
+    --titleOfSecondaryColor: rgb(162,161,151);
 }
 
 
@@ -13,8 +14,8 @@
 }
 
 .title-section-button {
-    color: var(--titleSectionPrimaryColor);
-    border: solid var(--titleSectionPrimaryColor) 1px;
+    color: var(--titleOfPrimaryColor);
+    border: solid var(--titleOfPrimaryColor) 1px;
     border-radius: 5px;
     padding: 15px 20px;
     background-color: transparent;
@@ -22,7 +23,8 @@
 
 
 .title-section-button:hover {
-    background-color: red;
+    background-color: var(--titleOfPrimaryColor);
+    color: var(--titleOfSecondaryColor);
     cursor: pointer;
 }
 
