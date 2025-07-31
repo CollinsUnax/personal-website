@@ -1,0 +1,46 @@
+:root {
+    --titleOfPrimaryColor: black;
+    --titleOfSecondaryColor: rgb(162,161,151);
+    --titleOfTertiaryColor: rgb(57,73,99);
+
+}
+
+
+
+#title {
+    color: var(--titleOfPrimaryColor);
+    text-align: center;
+    padding-top: 200px;
+    background-image: url('../images/aleks-dahlberg-pVATCBKLH8w-unsplash.jpg');
+    background-position: center top;    
+}
+
+.title-section-header {
+    margin-bottom: -5px;
+}
+
+.title-section-subtitle {
+    margin-bottom: 40px;
+}
+
+
+
+.title-section-button {
+    color: var(--titleOfPrimaryColor);
+    border: solid var(--titleOfPrimaryColor) 1px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background-color: transparent;
+}
+
+
+.title-section-button:hover {
+    background-color: var(--titleOfPrimaryColor);
+    color: var(--titleOfSecondaryColor);
+    cursor: pointer;
+}
+
+
+
+
+
