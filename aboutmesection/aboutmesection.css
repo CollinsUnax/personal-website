@@ -7,11 +7,15 @@
     margin-top: 40px;
 }
 
+.aboutme-icons > a {
+    text-decoration: none;
+}
 
 
 .aboutme-icons {
     font-size: 25px;
     margin-top: 45px;
+    margin-bottom: 25px;
 }
 
 .aboutme-icon {
@@ -25,6 +29,9 @@
 }
 
 
+.aboutme-download-link > a {
+    color: black;
+}
 
 
 
