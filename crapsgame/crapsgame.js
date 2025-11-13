@@ -127,8 +127,12 @@ function formatDiceScale () {
   document.getElementById(crapsRollDiceAnimationContainer).style.transform = "scale(" + scale + ")"
 }
 
+function delayedProcessDiceResult (diceResult) {
+  setTimeout(function () {processDiceResult(diceResult); }, 1000)
+}
+
 function processDiceResult (diceResult) {
-  const sum = diceResult.reduce((partialSum, a) => partialSum + a, 0);
+  const sum = diceResult.reduce((partialSum, a) => partialSum + a, 0)
   let diceSumResult = bets.even
   if (sum % 2 === 1){
     diceSumResult = bets.odd
