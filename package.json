@@ -83,5 +83,8 @@
   "bugs": {
     "url": "https://github.com/CollinsUnax/personal-website/issues"
   },
-  "homepage": "https://github.com/CollinsUnax/personal-website#readme"
+  "homepage": "https://github.com/CollinsUnax/personal-website#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
